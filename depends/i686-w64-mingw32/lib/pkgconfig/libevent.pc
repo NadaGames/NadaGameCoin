@@ -1,6 +1,6 @@
 #libevent pkg-config source file
 
-prefix=/home/tesla/Desktop/win/NADA/depends/i686-w64-mingw32
+prefix=/home/satoshi/Desktop/NadaGames/depends/i686-w64-mingw32
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
