@@ -223,8 +223,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/home/satoshi/Desktop/NadaGames/depends/i686-w64-mingw32/lib/engines"
-#define OPENSSLDIR "/home/satoshi/Desktop/NadaGames/depends/i686-w64-mingw32/etc/openssl"
+#define ENGINESDIR "/home/satoshi/Desktop/NadaGameCoin/depends/i686-w64-mingw32/lib/engines"
+#define OPENSSLDIR "/home/satoshi/Desktop/NadaGameCoin/depends/i686-w64-mingw32/etc/openssl"
 #endif
 #endif
 
