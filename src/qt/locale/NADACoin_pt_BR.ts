@@ -3538,8 +3538,8 @@ https://www.transifex.com/NADACoin-project/NADACoin-project-translations</transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(95421 could be used only on mainnet)</source>
-        <translation>(95421 could be used only on mainnet)</translation>
+        <source>(51571 could be used only on mainnet)</source>
+        <translation>(51571 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3550,8 +3550,8 @@ https://www.transifex.com/NADACoin-project/NADACoin-project-translations</transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 95421 for mainnet)</source>
-        <translation>(deve ser 95421 para mainnet)</translation>
+        <source>(must be 51571 for mainnet)</source>
+        <translation>(deve ser 51571 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

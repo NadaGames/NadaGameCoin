@@ -53,10 +53,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("00000a625176bf88508879d32d27964b9b0407e063ea659d173fcc49a8cce240"));
+    (0, uint256("77c2ae80a040c422dc960e53cc43388f0391b73a2a8040d9dd76e610d219d479"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1546263133, // * UNIX timestamp of last checkpoint block
+    1546322778, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -66,7 +66,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1546263133,
+    1546322778,
     0,
     250};
 
@@ -74,9 +74,11 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1546263133,
+    1546322778,
     0,
     100};
+
+
 
 
 class CMainParams : public CChainParams
@@ -91,12 +93,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x63;
+        pchMessageStart[0] = 0x8f;
         pchMessageStart[1] = 0x5e;
-        pchMessageStart[2] = 0x7c;
-        pchMessageStart[3] = 0x3a;
+        pchMessageStart[2] = 0x7a;
+        pchMessageStart[3] = 0x8b;
         vAlertPubKey = ParseHex("047bf1057375c2d194f8c0853fa72e6458a3bbc683d1a8c15fcefde35328de6e6e862a9442283952dd0e55ca87226c19b66dc0f56301a9321ee09fb3b539b5a86d");
-        nDefaultPort = 95421;
+        nDefaultPort = 51571;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // NADACoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 2100000;
         nMaxReorganizationDepth = 100;
@@ -134,17 +136,17 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1546263133;
+        genesis.nTime = 1546322778;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 529548;
-		
+        genesis.nNonce = 613874;
+	
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("00000a625176bf88508879d32d27964b9b0407e063ea659d173fcc49a8cce240"));
+        assert(hashGenesisBlock == uint256("00000598e61ea00d534773e6fe6b6784eef7f826e63c5781a18b165f95794c45"));
         assert(genesis.hashMerkleRoot == uint256("97b9a0218d5a6b91006546a65d3ec65e09fc05594e879b4835db7587856e7401"));
 
-        vSeeds.push_back(CDNSSeedData("68.183.173.174", "68.183.173.197"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("104.248.223.91", "68.183.173.170"));           // Single node address
-	vSeeds.push_back(CDNSSeedData("68.183.173.235", "68.183.173.182"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("209.97.180.118", "46.101.30.227"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("46.101.30.233", "46.101.30.118"));           // Single node address
+	vSeeds.push_back(CDNSSeedData("46.101.30.206", "46.101.30.130"));         // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
@@ -168,10 +170,10 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "";
-        strObfuscationPoolDummyAddress = "";
+        strSporkKey = "4yN2FSfs85KFNFGVAnTCH1ARSq1J4BYZ8TQKPvuCUJCXkTNMvyQ";
+        strObfuscationPoolDummyAddress = "NP13B3vrLgjT885YK6Xb9UvZcBZvPnkTgq";
 		
-        nStartMasternodePayments = 1546263133; 
+        nStartMasternodePayments = 1546322778; 
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const

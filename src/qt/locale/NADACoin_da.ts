@@ -4118,8 +4118,8 @@ For eksempel: alertnotify=Echo %% | mail - s "NADACoin ALARM!" e-mail@administra
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(95421 could be used only on mainnet)</source>
-        <translation>(95421 kunne kun bruges på hovednettet)</translation>
+        <source>(51571 could be used only on mainnet)</source>
+        <translation>(51571 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4130,8 +4130,8 @@ For eksempel: alertnotify=Echo %% | mail - s "NADACoin ALARM!" e-mail@administra
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 95421 for mainnet)</source>
-        <translation>(skal være 95421 for hovednettet)</translation>
+        <source>(must be 51571 for mainnet)</source>
+        <translation>(skal være 51571 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

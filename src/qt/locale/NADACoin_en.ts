@@ -5326,8 +5326,8 @@ for example: alertnotify=echo %%s | mail -s &quot;NADACoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>(95421 could be used only on mainnet)</source>
-        <translation type="unfinished">(95421 could be used only on mainnet)</translation>
+        <source>(51571 could be used only on mainnet)</source>
+        <translation type="unfinished">(51571 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5341,7 +5341,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NADACoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 95421 for mainnet)</source>
+        <source>(must be 51571 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
