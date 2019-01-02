@@ -4167,8 +4167,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "NADACoin Alert" admin@foo.com
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(51571 could be used only on mainnet)</source>
-        <translation>(51571 puede ser utilizado solo en mainnet)</translation>
+        <source>(13881 could be used only on mainnet)</source>
+        <translation>(13881 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4179,8 +4179,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "NADACoin Alert" admin@foo.com
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 51571 for mainnet)</source>
-        <translation>(debe ser 51571 para un mainnet)</translation>
+        <source>(must be 13881 for mainnet)</source>
+        <translation>(debe ser 13881 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
